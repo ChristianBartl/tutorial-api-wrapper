@@ -1,3 +1,4 @@
+import vcr
 from pytest import fixture
 from tmdbwrapper import TV
 
@@ -9,7 +10,7 @@ def tv_keys():
               'first_air_date', 'vote_count', 'vote_average']
 
 
-
+@vcr.use_cassette('tests/vcr_cassettes/tv-info.yml')
 def test_tv_info(tv_keys):
     """Tests an API call to get a TV show's info"""
 
