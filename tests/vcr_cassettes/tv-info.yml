@@ -11,7 +11,7 @@ interactions:
       User-Agent:
       - python-requests/2.25.0
     method: GET
-    uri: https://api.themoviedb.org/3/tv/1396?api_key=cbf1f07892951cd80d3a5d36ee5f40b6
+    uri: https://api.themoviedb.org/3/tv/1396
   response:
     body:
       string: !!binary |
@@ -29,7 +29,7 @@ interactions:
         Jp1oMM4+izk7FQ8y1izORCEtvDInOB5Mg0nLEsknSluRsLl0Gbtw8M2Oj49ZzNGsBuVP2ETOYJoz
         EID24iudMq1yWJprthDcWJaL1BFdcuxtsqFgY0EMsgxdna+sc2aFsoI+T/FVLqxV+PFOwLMKXZkL
         5Sg94CiNJ6AVcYW/MrhNeSHzxT/IqEJ4kucsrRy95Q4GFiAtmMstywRICyAsKC1YAkyF0ZVl4ESe
-        kPvEVJPab2ygHJ7euqxybqRDWdpRt9mJerRoYWZNk8nkcHj9uerd3R13T3bLd+kZj7/Lxy9Hbknm
+        kPvEVJPab2ygHJ7euqxybqRDWdphtxnuhrRoYWZNk8nkcHj9uerd3R13T3bLd+kZj7/Lxy9Hbknm
         jR4pSq7kc50JW/3oBfHmQ9vppFOX6O+9OOoP7scXN+njJ3vavl8Sb1n4C438zmVM6Vp2CaBm0pK6
         /IaajdpnFPU77Q2fywaprQ7lJGMHRiao+gdCzHGpCmD3P8y2e63u760eGVTzWnJ2vobD/k0LbYBG
         79agWT2Kwl5vFNab1w6uFPidEFud8GzcL4SRca3c6377+kIrIZSt9k7Yf6aVS5HphLUwRN1+/wnx
@@ -54,8 +54,8 @@ interactions:
         LufyQHHoS5pLUTmBcjl2Kqer9P3xcO2ZMqpz9Gap5+hTXiJ0Jvy9xfpN7z/ss/0JnVLGRvs2AD45
         nzc8NRrECwgc6lnfFHLBE0KIU1dXMD/O+aOgSxAoQghwTE/fERRU89//+qa+qf/zHr3JNRM99luz
         SsnM7E+/H5/88elmeNs6aj88nr3Ota4/5JZ6KtTo+b8UfuLGOMmlzVZ3xQ/1I116cZDuRbv+HO2v
-        lS92eIs4TFfWLyaC7pa4CgJL2vZFFIJ8s2LB/Jd4uSg9bcGY0vntm/f4QbO/eY/vhd3Or/8CHCfL
-        DX8SAAA=
+        lS92eIs4TFfWLyaC7pa4CgJL2vZFFIJ8s2LB/Jd4uSg9bcGY0vntm/f4QbO/eY/vhbu9X/8Fh7Bd
+        gH8SAAA=
     headers:
       Access-Control-Allow-Methods:
       - GET, HEAD, POST, PUT, DELETE, OPTIONS
@@ -64,8 +64,6 @@ interactions:
       Access-Control-Expose-Headers:
       - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
         Content-Length, Content-Range
-      Age:
-      - '96'
       Cache-Control:
       - public, max-age=3600
       Connection:
@@ -75,11 +73,11 @@ interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Sat, 19 Dec 2020 21:08:19 GMT
+      - Tue, 29 Dec 2020 16:57:51 GMT
       ETag:
-      - W/"e94b75b1366c5ba4a04a3029f21bdefa"
+      - W/"b493f17a5db52085137b9cadd6dc7837"
       Last-Modified:
-      - Sat, 19 Dec 2020 21:08:18 GMT
+      - Tue, 29 Dec 2020 16:57:51 GMT
       Server:
       - openresty
       Transfer-Encoding:
@@ -87,19 +85,19 @@ interactions:
       Vary:
       - Accept-Encoding
       Via:
-      - 1.1 49e78dae34a1d21beb31b4002f7ce92e.cloudfront.net (CloudFront)
+      - 1.1 24626a7ea6ae1a3cf25ff10af1f89348.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - xzXAhX186vYAkKhL_VMTzv127pfKcnfyeT0vzBizUICXdaoC8cXelA==
+      - 1XzZjFJESz8eK6-QciKkGcKpo4p_EWHQ-k133VfZJefFpKhTXvTj2w==
       X-Amz-Cf-Pop:
-      - DUS51-C1
+      - MUC50-C1
       X-Cache:
-      - Hit from cloudfront
+      - Miss from cloudfront
       x-memc:
       - HIT
       x-memc-age:
-      - '2712'
+      - '3556'
       x-memc-expires:
-      - '888'
+      - '44'
       x-memc-key:
       - ab62e627808450e8a6d228a45e4cfee1c0ca32e8
     status:

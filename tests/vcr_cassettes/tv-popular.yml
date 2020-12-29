@@ -11,7 +11,7 @@ interactions:
       User-Agent:
       - python-requests/2.25.0
     method: GET
-    uri: https://api.themoviedb.org/3/tv/popular?api_key=cbf1f07892951cd80d3a5d36ee5f40b6
+    uri: https://api.themoviedb.org/3/tv/popular
   response:
     body:
       string: !!binary |
@@ -108,6 +108,8 @@ interactions:
       Access-Control-Expose-Headers:
       - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After,
         Content-Length, Content-Range
+      Age:
+      - '1424'
       Cache-Control:
       - public, max-age=21600
       Connection:
@@ -125,13 +127,13 @@ interactions:
       Vary:
       - Accept-Encoding
       Via:
-      - 1.1 c4c822c878c22be90d0bb70ab49a395a.cloudfront.net (CloudFront)
+      - 1.1 22a1b3c2f1a7b6d72ce563a230b92a91.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - yX5Dkh5iOwFkgEpIJUYWL-Ul5t6EGzXAoYux2Gps4T-b94dIDA2HGA==
+      - dvB90NVwsWBqC8tzkm7GIxNpRKeEIAy2IFU5PyGbGLJl0bJlIO-MSw==
       X-Amz-Cf-Pop:
       - MUC50-C1
       X-Cache:
-      - Miss from cloudfront
+      - Hit from cloudfront
     status:
       code: 200
       message: OK
