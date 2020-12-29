@@ -1,3 +1,8 @@
+# vcr files
+vcr_cassettes/
+
+
+
 # VS Code
 .vscode
 
@@ -130,3 +135,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+
